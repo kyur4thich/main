@@ -1,0 +1,4 @@
+
+# local secrets
+azure-scripts/make_ml_folders.py
+.env

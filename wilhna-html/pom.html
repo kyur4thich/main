@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wilhelmina - EFB Mountain</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      color: white;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      box-sizing: border-box;
+    }
+
+    .logo-container img {
+      max-height: 40px;
+      height: auto;
+      width: auto;
+    }
+
+    .back-button a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      border: 1px solid white;
+      padding: 6px 12px;
+      border-radius: 4px;
+    }
+
+    .back-button a:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .video-container {
+      width: 100%;
+      padding: 0 20px 40px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    video {
+      max-height: 80vh;
+      width: auto;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border: none;
+    }
+
+    @media screen and (max-width: 600px) {
+      .logo-container img {
+        max-height: 30px;
+      }
+
+      .video-container {
+        padding: 0 10px 30px;
+      }
+
+      .back-button a {
+        font-size: 12px;
+        padding: 5px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo-container">
+      <a href="https://www.wilhna.com/" target="_blank">
+        <img src="img/Logo_wilhelmina_Holland_WHITE.png" alt="Wilhelmina Logo" />
+      </a>
+    </div>
+    <div class="back-button">
+      <a href="index.html">&larr; Back to Home</a>
+    </div>
+  </div>
+
+  <div class="video-container">
+    <video controls playsinline>
+      <source src="videos/EFB_mountain.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+</body>
+</html>
