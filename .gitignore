@@ -6,3 +6,7 @@ azure-scripts/make_ml_folders.py
 node_modules/
 dist/
 build/
+.DS_Store
+node_modules/
+dist/
+build/
